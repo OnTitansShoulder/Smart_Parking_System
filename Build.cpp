@@ -422,7 +422,7 @@ int main(int argc, char* args[])
 			SDL_Thread* ThreadTwo = SDL_CreateThread(threadTwo, "ThreadTwo", garage);
 
 			//Thread Three: Obtain user's input for Cars into Garage
-			SDL_Thread* ThreadThree = SDL_CreateThread(threadThree, "ThreadThree", garage);/
+			SDL_Thread* ThreadThree = SDL_CreateThread(threadThree, "ThreadThree", garage);
 			
 			//Thread Three: remove the random generated cars randomly
 			SDL_Thread* ThreadFour = SDL_CreateThread(threadFour, "ThreadFour", garage);

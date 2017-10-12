@@ -1,6 +1,8 @@
 #ifndef TEXTURE
 #define TEXTURE
 #include "Build.h"
+#include <cstring>
+using namespace std;
 
 //Texture wrapper class
 class LTexture
